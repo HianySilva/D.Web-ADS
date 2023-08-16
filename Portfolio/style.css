@@ -1,9 +1,11 @@
 body{
-   background-color: white;
+   background-color: #dcdfda;
 }
 
+
+
 header {
-    background-color: DarkMagenta	;
+    background-color: #9F8082	;
     text-align: center;
     border: 2px solid rgb(92, 89, 89);
 }
@@ -16,52 +18,57 @@ img {
 }
 h1{
 
-    color:white ;
+    color:black ;
     font-family:Georgia, 'Times New Roman', Times, serif   
 }
 h6{
-    color:white;
-    font-family:'Courier New', Courier, monospace;
-    font-style:italic;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ 
     font-size:medium;
 }
 
-section >
-h2{
-    background-color : DarkMagenta;
-    color : white;
+
+section > h2{
+    background-color :  #9F8082;
+    color : black;
     text-align: center;
     border: 2px solid rgb(92, 89, 89);
 }
 
-p{
+section > p{
     color:black;
-    font-family:'Courier New', Courier, monospace;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
 }
-li{
+section > li{
     color :black;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-article > 
-h2{
-    background-color :DarkMagenta	;
-    color:white;
+
+article > h2{
+    background-color : #9F8082	;
+    color:black;
     text-align: center;
     border: 2px solid rgb(92, 89, 89);
 }
 
-h3{
+article >  h3{
     color:black;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-footer> 
- p{
-    background-color: DarkMagenta;
-    color :white;
+footer {
+    background-color:  #9F8082;
+}
+
+footer > p{
+    
+    color :black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-a{
-    color : white;
+
+footer a{
+    color : black;
 }
