@@ -1,15 +1,68 @@
+body{
+   background-color: white;
+}
+
 header {
+    background-color: DarkMagenta	;
     text-align: center;
+    border: 2px solid rgb(92, 89, 89);
 }
 
 img {
-    border: 1px solid black;
-    height: 100px;
+    max-width: 200px;
+    max-height: 220px;
+    margin:auto;
+    display:block;
+}
+h1{
+
+    color:white ;
+    font-family:Georgia, 'Times New Roman', Times, serif   
+}
+h6{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+    font-size:medium;
 }
 
-h1{
-   
-    border: 1px solid red;
-   
-    
+section >
+h2{
+    background-color : DarkMagenta;
+    color : white;
+    text-align: center;
+    border: 2px solid rgb(92, 89, 89);
+}
+
+p{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+li{
+    color :black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+article > 
+h2{
+    background-color :DarkMagenta	;
+    color:white;
+    text-align: center;
+    border: 2px solid rgb(92, 89, 89);
+}
+
+h3{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+footer{
+    background-color: DarkMagenta;
+}
+p{
+    color :white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+a{
+    color : white;
 }
