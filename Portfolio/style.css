@@ -55,10 +55,9 @@ h3{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-footer{
+footer> 
+ p{
     background-color: DarkMagenta;
-}
-p{
     color :white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
