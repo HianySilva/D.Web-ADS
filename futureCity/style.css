@@ -49,7 +49,7 @@
     flex: 20%;
     margin-left: 10%;
 }
- h1 {
+.logo h1 {
     display: inline-block;
     font-family: var(--fonte-destaque4);
     color: var(--cor3);
@@ -87,23 +87,28 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Cabeçalho*/
+.header{
+    height: 800px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+.headline{
+    display: ;
+}
 
+
+.headline{
+    margin-left: 10%; ;
+
+}
+
+
+#headerline-letter{
+    letter-spacing: 15px;
+}
 
 /*Contéudo */
 
