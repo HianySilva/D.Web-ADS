@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #E44C27;
+    --cor2: #BB2B07;
+    --cor3: #96331A;
+    --cor4: #BF4B2E;
+}
+
+/* PÁGINA PRINCIPAL */
+@media (max-width: 1845px) {
+    .logo {
+        flex: 30%;
+    }
+    .menu {
+        flex: 60%;
+    }
+}
+
+@media (max-width: 1660px) {
+    .texto-oculto p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1462px) {
+    .texto-oculto h3, .texto-oculto p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1357px) {
+    .texto-oculto h3, .texto-oculto p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1273px) {
+    .texto-oculto p {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 1182px) {
+    .texto-oculto h3, .texto-oculto p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1238px) {
+    .navbar {
+        position: relative;
+    }
+    .logo {
+        flex: 40%;
+    }
+    .menu {
+        flex: 50%;
+    }
+    .header, .header-about-us {
+        height: 735px;
+        padding-top: 175px;
+    }
+}
+
+@media (max-width: 1108px) {
+    .card, .card-other-screen {
+        width: 100%;
+        text-align: center;
+    }
+    .card-img {
+        width: 250px;
+    }
+    .texto-oculto h3, .texto-oculto p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 989px) {
+    .headline h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 875px) {
+    .navbar {
+        height: 165px;
+    }
+    .logo {
+        flex-flow: column wrap;
+        margin: 0;        
+    }
+    .logo h1 {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 827px) {
+    .header {
+        background:  url('../img/city.png') no-repeat center center;
+        background-size: contain;
+
+    }
+    .header-about-us {
+        background: url('../img/teamwork.png') no-repeat center center;
+        background-size: contain;
+    }
+    .headline h2 {
+        display: none;
+    }
+    .headline p {
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    }
+    .header-about-us p {
+        opacity: .8;
+    }
+    .header-about-us p:hover {
+        opacity: .7;
+    }
+    .header p:hover {
+        opacity: .8;
+    }
+}
+
+/* TRANSPORTE PÚBLICO INTELIGENTE */
+@media (max-width: 1892px) {
+    .logo-transport {
+        flex: 30%;
+    }
+    .menu-transport {
+        flex: 60%;
+    }
+}
+
+@media (max-width: 1269px) {
+    .navbar-transport {
+        position: relative;
+    }
+    .logo-transport {
+        flex: 40%;
+    }
+    .menu-transport {
+        flex: 50%;
+    }
+    .header-transport {
+        height: 735px;
+        padding-top: 175px;
+    }
+}
+
+@media (max-width: 898px) {
+    .navbar-transport {
+        height: 165px;
+    }
+    .logo-transport {
+        flex-flow: column wrap;
+        margin: 0;        
+    }
+    .logo-transport h1 {
+        display: none;
+    }
+    .menu-transport {
+        display: none;
+    }
+}
+
+@media (max-width: 787px) {
+    .header-transport {
+        background:  url('../img/transport.png') no-repeat center center;
+        background-size: contain;
+    }
+    .headline-transport h2 {
+        display: none;
+    }
+    .headline-transport p {
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    }
+    .header-transport p:hover {
+        opacity: .8;
+    }
+}
+
+/* Eficiência Energética */
+@media (max-width: 1851px) {
+    .logo-energy {
+        flex: 30%;
+    }
+    .menu-energy {
+        flex: 60%;
+    }
+}
+
+@media (max-width: 1242px) {
+    .navbar-energy {
+        position: relative;
+    }
+    .logo-energy {
+        flex: 40%;
+    }
+    .menu-energy {
+        flex: 50%;
+    }
+    .header-energy {
+        height: 735px;
+        padding-top: 175px;
+    }
+}
+
+@media (max-width: 886px) {
+    .navbar-energy {
+        height: 165px;
+    }
+    .headline-energy h2 {
+        display: none;
+    }
+}
+
+@media (max-width: 876px) {
+    .navbar-energy {
+        height: 165px;
+    }
+    .logo-energy {
+        flex-flow: column wrap;
+        margin: 0;        
+    }
+    .logo-energy h1 {
+        display: none;
+    }
+    .menu-energy {
+        display: none;
+    }
+    .header-energy {
+        background:  url('../img/cidade-verde.png') no-repeat center center;
+        background-size: contain;
+    }
+    .headline-energy p {
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    }
+    .header-energy p:hover {
+        opacity: .8;
+    }
+}
+
+/* RECICLAGEM E SUSTENTABILIDADE */
+@media (max-width: 2049px) {
+    .logo-recycling {
+        flex: 30%;
+    }
+    .menu-recycling {
+        flex: 60%;
+    }
+}
+
+@media (max-width: 1630px) {
+    .navbar-recycling {
+        position: relative;
+    }
+    .logo-recycling {
+        flex: 40%;
+    }
+    .menu-recycling {
+        flex: 50%;
+    }
+    .header-recycling {
+        height: 735px;
+        padding-top: 175px;
+    }
+}
+
+@media (max-width: 1227px) {
+    .navbar-recycling {
+        height: 165px;
+    }
+    .logo-recycling {
+        flex-flow: column wrap;
+        margin: 0;        
+    }
+    .logo-recycling h1 {
+        display: none;
+    }
+    .menu-recycling {
+        display: none;
+    }
+}
+
+@media (max-width: 939px) {
+    .header-recycling {
+        background:  url('../img/area-de-descanso.png') no-repeat center center;
+        background-size: contain;
+    }
+    .headline-recycling h2 {
+        display: none;
+    }
+    .headline-recycling p {
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    }
+    .header-recycling p:hover {
+        opacity: .8;
+    }
+}
+
+/* Seguranaça Urbana */
+@media (max-width: 2049px) {
+    .logo-urban-security {
+        flex: 30%;
+    }
+    .menu-urban-security {
+        flex: 60%;
+    }
+}
+
+@media (max-width: 1245px) {
+    .navbar-urban-security {
+        position: relative;
+    }
+    .logo-urban-security {
+        flex: 40%;
+    }
+    .menu-urban-security {
+        flex: 50%;
+    }
+    .header-urban-security {
+        height: 735px;
+        padding-top: 175px;
+    }
+}
+
+@media (max-width: 878px) {
+    .navbar-urban-security {
+        height: 165px;
+    }
+    .logo-urban-security {
+        flex-flow: column wrap;
+        margin: 0;        
+    }
+    .logo-urban-security h1 {
+        display: none;
+    }
+    .menu-urban-security {
+        display: none;
+    }
+}
+
+@media (max-width: 867px) {
+    .header-urban-security {
+        background:  url('../img/city.png') no-repeat center center;
+        background-size: contain;
+    }
+    .headline-urban-security h2 {
+        display: none;
+    }
+    .headline-urban-security p {
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    }
+    .header-urban-security p:hover {
+        opacity: .8;
+    }
+}
+
+/**
